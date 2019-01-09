@@ -1,0 +1,39 @@
+http://data.project-gxs.com/app/?s=%5Bproject-gxs%5D%2018if%20%5B10bit%20720p%5D/%5Bproject-gxs%5D%2018if%20-%2001%20%5B10bit%20720p%5D%20%5B6D27C3E5%5D.mkv
+http://data.project-gxs.com/[project-gxs]%2018if%20[10bit%20720p]/[project-gxs]%2018if%20-%2001%20[10bit%20720p]%20[6D27C3E5].mkv
+
+http://data.project-gxs.com/app/?s=[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
+http://data.project-gxs.com/[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
+
+http://data.project-gxs.com/[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
+http://data.project-gxs.com/[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
+
+
+
+names = list(anime_titles)
+In [140]: for index, x in enumerate(names): 
+     ...:     if int(str(x).split("--")[1].strip()[0]) > 1: 
+     ...:         print(f"{index} : {x}") 
+     ...:          
+     ...:                                                                                                                                                                                        
+48 : <h3>Arslan Senki -- 2 seasons</h3>
+141 : <h3>Dog Days -- 3 seasons</h3>
+187 : <h3>Gakusen Toshi Asterisk -- 2 seasons</h3>
+194 : <h3>Gate Jieitai Kanochi nite, Kaku Tatakaeri -- 2 seasons</h3>
+200 : <h3>Gin no Saji -- 2 seasons</h3>
+204 : <h3>Gochuumon wa Usagi Desu ka -- 2 seasons</h3>
+223 : <h3>Haikyuu!! -- 2 seasons</h3>
+264 : <h3>Infinite Stratos -- 2 seasons</h3>
+315 : <h3>Kimi ni Todoke -- 2 seasons</h3>
+345 : <h3>Kuroko no Basuke -- 2 seasons</h3>
+374 : <h3>Magi -- 2 seasons</h3>
+467 : <h3>Ore no Imouto ga Konna ni Kawaii Wake ga Nai -- 2 seasons</h3>
+476 : <h3>Owari no Seraph -- 2 seasons</h3>
+566 : <h3>Shokugeki no Souma -- 3 seasons</h3>
+609 : <h3>Terra Formars -- 2 seasons</h3>
+619 : <h3>Toaru Kagaku no Railgun -- 2 seasons</h3>
+679 : <h3>Yuru Yuri -- 2 seasons</h3>
+
+with tqdm(total=100) as pbar:
+    for i in range(1000):
+        for j in range(100)
+        pbar.update(10)
