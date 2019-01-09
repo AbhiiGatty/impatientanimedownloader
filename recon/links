@@ -1,13 +1,14 @@
+Encode URL:
 http://data.project-gxs.com/app/?s=%5Bproject-gxs%5D%2018if%20%5B10bit%20720p%5D/%5Bproject-gxs%5D%2018if%20-%2001%20%5B10bit%20720p%5D%20%5B6D27C3E5%5D.mkv
 http://data.project-gxs.com/[project-gxs]%2018if%20[10bit%20720p]/[project-gxs]%2018if%20-%2001%20[10bit%20720p]%20[6D27C3E5].mkv
 
+Decoded URL:
 http://data.project-gxs.com/app/?s=[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
 http://data.project-gxs.com/[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
 
-http://data.project-gxs.com/[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
-http://data.project-gxs.com/[project-gxs] 18if [10bit 720p]/[project-gxs] 18if - 01 [10bit 720p] [6D27C3E5].mkv
-
-
+Differnce: 'app/?s=
+original_url = advert
+original_url - 'app/?s=' = noadvert
 
 names = list(anime_titles)
 In [140]: for index, x in enumerate(names): 
@@ -32,8 +33,3 @@ In [140]: for index, x in enumerate(names):
 609 : <h3>Terra Formars -- 2 seasons</h3>
 619 : <h3>Toaru Kagaku no Railgun -- 2 seasons</h3>
 679 : <h3>Yuru Yuri -- 2 seasons</h3>
-
-with tqdm(total=100) as pbar:
-    for i in range(1000):
-        for j in range(100)
-        pbar.update(10)
